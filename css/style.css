@@ -184,6 +184,7 @@ input:focus{
 }
 .p2s{
     background: #f8f8fd;
+    padding-bottom: 3em;
 }
 .p2s > .row.text-center{
 
@@ -209,6 +210,7 @@ input:focus{
 }
 .ph-use > .pt-15{
     margin-top: 1em;
+    line-height: 1.4em;
     color: #2b2744;
 }
 .ph-use .pt-25b{
