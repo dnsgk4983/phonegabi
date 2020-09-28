@@ -127,14 +127,14 @@ input:focus{
 .count1{
     position: absolute;
     top: 39.7%;
-    left: 2.1%;
+    left: 2.3%;
     color: #fff;
     font-size: 1em;
 }
 .count2{
     position: absolute;
     top: 41.2%;
-    left: 25.4%;
+    left: 26.4%;
     color: #fff;
     font-size: 1em;
 }
@@ -142,13 +142,13 @@ input:focus{
     color: #fff;
     font-size: 1.2em;
     top: 37.2%;
-    left: 60%;
+    left: 59%;
     position: absolute;
 }
 .count4{
     color: #fff;
     font-size: 1.1em;
-    left: 81.2%;
+    left: 80.2%;
     top: 40.8%;
     position: absolute;
 }
