@@ -136,3 +136,26 @@ input:focus{
     top: 40.8%;
     position: absolute;
 }
+
+@media (min-width:320px) and (max-width:530px){
+    .ph-main{
+        height: 273px;
+    }
+    .count1{
+        top: 38.8%;
+        left: 0.1%;
+        font-size: 0.7em;
+    }
+    .count2{
+        top: 40.4%;
+        font-size: .7em;
+    }
+    .count3{
+        top: 36.1%;
+        font-size:.95em;
+    }
+    .count4{
+        top: 40.2%;
+        font-size: .7em;
+    }
+}
