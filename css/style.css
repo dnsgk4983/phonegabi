@@ -70,6 +70,7 @@ input:focus{
     min-width: 320px;
     margin: 0 auto;
     min-height: 100%;
+    background: #fff;
 }
 .row.text-right{
     text-align: right;
@@ -189,6 +190,7 @@ input:focus{
 .p2s > .row.text-center{
 
     padding-top: 3em;
+    padding-bottom: 2em;
 }
 .p2s > .row.text-center > img{
     vertical-align: -8px;
@@ -238,6 +240,9 @@ footer{
     max-width: 640px;
     margin: 0 auto;
     padding: 24px 0;
+    background: #f8f8fd;
+}
+footer .container{
     background: #f8f8fd;
 }
 .ph-foot > p{
