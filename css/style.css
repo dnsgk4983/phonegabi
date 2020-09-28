@@ -136,8 +136,39 @@ input:focus{
     top: 40.8%;
     position: absolute;
 }
-
-@media (min-width:320px) and (max-width:530px){
+@media (max-width: 640px){
+    .count1{
+        top: 40%;
+    }
+    .count2{
+        top: 41.5%;
+    }
+    .count3{
+        top: 37.6%;
+    }
+    .count4{
+        top: 41%;
+    }
+}
+@media (max-width: 568px){
+    .count1{
+        left: 1.1%;
+        top: 41%;
+    }
+    .count2{
+        left: 24.6%;
+        top: 42.4%;
+    }
+    .count3{
+        left: 59%;
+        top: 39%;
+    }
+    .count4{
+        left: 80.2%;
+        top: 42%;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
     .ph-main{
         height: 273px;
     }
