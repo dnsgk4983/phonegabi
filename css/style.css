@@ -81,8 +81,21 @@ input:focus{
     font-size: 1.79em;
     font-weight: bold;
 }
+.pt-23b{
+    font-size: 1.65em;
+    font-weight: bold;
+}
+.pt-16{
+    font-size: 1.2em;
+}
 .pt-14{
     font-size: 1em;
+}
+.pt-13{
+    font-size: .95em;
+}
+.pt-m{
+    font-size: .7em;
 }
 /* section */
 .ph-t > .pt-25b{
@@ -95,6 +108,7 @@ input:focus{
 }
 .ph-t span{
     color: #584bff;
+    font-weight: bold;
 }
 .row.text-center{
     text-align: center;
@@ -137,6 +151,101 @@ input:focus{
     position: absolute;
 }
 
+.ph-btn-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+.ph-btn{
+    width: 49%;
+    height: 16em;
+    padding: 1em;
+    background: #564bf5;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.ph-btn.ph-buy{
+    background: #ef9797;
+}
+.ph--t{
+    font-weight: 600;
+}
+.ph-s{
+    line-height: 1.6em;
+    margin-top: 6px;
+}
+.go-icon{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.p2s{
+    background: #f8f8fd;
+}
+.p2s > .row.text-center{
+
+    padding-top: 3em;
+}
+.p2s > .row.text-center > img{
+    vertical-align: -8px;
+    margin-right: .5em;
+}
+
+.aos-slide{
+    padding: 0 24px;
+}
+.aos-s{
+    display: flex;
+    align-items: center;
+}
+.aos-s > img{
+    width: 30%;
+}
+.ph-use{
+    margin-left: 1em;
+}
+.ph-use > .pt-15{
+    margin-top: 1em;
+    color: #2b2744;
+}
+.ph-use .pt-25b{
+    color: #564bf5;
+}
+.p2s-line{
+    width: 100%;
+    height: 1px;
+    background: #cecece;
+    margin: 1em auto;
+}
+
+.ph-banner{
+    padding: 2em 0;
+}
+.ph-b1{
+    margin-bottom: 1em;
+}
+.ph-banner img{
+    width: 100%;
+}
+
+footer{
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 24px 0;
+    background: #f8f8fd;
+}
+.ph-foot > p{
+    color: #7c7c7c;
+    line-height: 1.6em;
+}
+.ph-copy{
+    margin-top: 1em;
+    color: #a1a1a1;
+}
 @media (max-width: 640px){
     .count1{
         top: 40%;
@@ -177,6 +286,9 @@ input:focus{
     }
 }
 @media (max-width:414px){
+    .ph-main{
+        height: 323px;
+    }
     .count1{
         top: 43.8%;
     }

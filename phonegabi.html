@@ -6,6 +6,7 @@
     <title>폰가비</title>
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/fontawesome.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -54,14 +55,80 @@
                     <span class="counter count4">220,000</span>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row">
                 <div class="ph-btn-wrap">
                     <div class="ph-cell ph-btn">
-                        <p class="ph-c-t">판매하기</p>
+                        <p class="ph--t pt-16">판매하기</p>
+                        <p class="ph-s pt-13">내 핸드폰을 중고로<br>팔면 얼마일까?</p>
+                        <div class="go-icon">
+                            <img src="images/go_btn.png" alt="go">
+                        </div>
                     </div>
                     <div class="ph-buy ph-btn">
-
+                        <p class="ph--t pt-16">구매하기</p>
+                        <p class="ph-s pt-13">새 제품 같은 중고폰,<br>어디서 사야할까?</p>
+                        <div class="go-icon">
+                            <img src="images/go_btn.png" alt="go">
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container p2s">
+            <div class="row text-center">
+                <img src="images/logo.png" alt="폰가비로고"><span class="pt-23b">이렇게 사용해요</span>
+            </div>
+            <div class="aos-slide">
+                <div class="aos-s aos-s1" data-aos="fade-right">
+                    <img src="images/007_step_001.png" alt="step1">
+                    <div class="ph-use">
+                        <p class="pt-25b">01</p>
+                        <p class="pt-15">거래할 중고폰과 신청자 정보를 입력 하세요!</p>
+                    </div>
+                </div>
+                <div class="p2s-line"></div>
+            </div>
+            <div class="aos-slide">
+                <div class="aos-s aos-s2" data-aos="fade-right">
+                    <img src="images/007_step_002.png" alt="step2">
+                    <div class="ph-use">
+                        <p class="pt-25b">02</p>
+                        <p class="pt-15">등록 후 알림톡으로 딜러들이 견적을 보내 드려요</p>
+                    </div>
+                </div>
+                <div class="p2s-line"></div>
+            </div>
+            <div class="aos-slide">
+                <div class="aos-s aos-s3" data-aos="fade-right">
+                    <img src="images/007_step_003.png" alt="step3">
+                    <div class="ph-use">
+                        <p class="pt-25b">03</p>
+                        <p class="pt-15">견적 중에 마음에 드는 딜러와 거래를 예약하세요</p>
+                    </div>
+                </div>
+                <div class="p2s-line"></div>
+            </div>
+            <div class="aos-slide">
+                <div class="aos-s aos-s4" data-aos="fade-right">
+                    <img src="images/007_step_004.png" alt="step4">
+                    <div class="ph-use">
+                        <p class="pt-25b">04</p>
+                        <p class="pt-15">거래 후 최종거래금액과 거래리뷰를 남기면 끝!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pd--24">
+            <div class="ph-banner">
+                <div class="ph-b1">
+                    <a href="#">
+                        <img src="images/banner-1.png" alt="banner">
+                    </a>
+                </div>
+                <div class="ph-b2">
+                    <a href="#">
+                        <img src="images/banner-2.png" alt="banner">
+                    </a>
                 </div>
             </div>
         </div>
@@ -70,10 +137,20 @@
 
     </section>
     <footer>
-
+        <div class="container">
+            <div class="row text-center">
+                <div class="ph-foot">
+                    <p class="pt-m">주식회사 업스테어스<br>사업자등록번호 : 139-87-01176<br>서비스 문의 : help@joongabi.com<br>서울 용산구 한강대로 54길 25, 4층(한강로1가, 신승빌딩)</p>
+                </div>
+                <div class="pt-m ph-copy">Copyright © 2020 Upstairs.Inc All Rights Reserved.</div>
+            </div>
+        </div>
     </footer>
 
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body> 
 </html>
