@@ -101,38 +101,38 @@ input:focus{
 }
 .ph-main{
     width: 100%;
-    height: 403px;
+    height: 548px;
     background: url(../images/008_keyvisual_001.png)no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     margin: 8px auto 0;
     position: relative;
 }
 .count1{
     position: absolute;
-    top: 39.6%;
-    left: 1.8%;
+    top: 39.7%;
+    left: 2.1%;
     color: #fff;
-    font-size: .75em;
+    font-size: 1em;
 }
 .count2{
     position: absolute;
-    top: 41%;
+    top: 41.2%;
     left: 25.4%;
     color: #fff;
-    font-size: .75em;
+    font-size: 1em;
 }
 .count3{
     color: #fff;
-    font-size: 1em;
-    top: 36.8%;
-    left: 59.2%;
+    font-size: 1.2em;
+    top: 37.2%;
+    left: 60%;
     position: absolute;
 }
 .count4{
     color: #fff;
-    font-size: .85em;
-    left: 80.7%;
+    font-size: 1.1em;
+    left: 81.2%;
     top: 40.8%;
     position: absolute;
 }
