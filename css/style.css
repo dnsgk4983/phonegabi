@@ -100,6 +100,9 @@ input:focus{
     font-size: .7em;
 }
 /* section */
+.ph-t{
+    padding-top: 3.4em;
+}
 .ph-t > .pt-25b{
     color: #2b2744;
     line-height: 1.3em;
