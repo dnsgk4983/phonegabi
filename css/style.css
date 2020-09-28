@@ -168,7 +168,7 @@ input:focus{
         top: 42%;
     }
 }
-@media (min-width:320px) and (max-width:414px){
+@media (max-width:320px){
     .ph-main{
         height: 273px;
     }
