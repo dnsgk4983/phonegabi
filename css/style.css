@@ -136,6 +136,7 @@ input:focus{
     top: 40.8%;
     position: absolute;
 }
+
 @media (max-width: 640px){
     .count1{
         top: 40%;
@@ -151,47 +152,68 @@ input:focus{
     }
 }
 @media (max-width: 568px){
+    .ph-main{
+
+    }
     .count1{
         left: 1.1%;
         top: 41%;
+        font-size: 0.7em;
     }
     .count2{
         left: 24.6%;
         top: 42.4%;
+        font-size: .7em;
     }
     .count3{
         left: 59%;
         top: 39%;
+        font-size:.95em;
     }
     .count4{
         left: 80.2%;
         top: 42%;
+        font-size: .7em;
+    }
+}
+@media (max-width:414px){
+    .count1{
+        top: 43.8%;
+    }
+    .count2{
+        left: 24.6%;
+        top: 44.6%;
+    }
+    .count3{
+        left: 58%;
+        top: 42%;
+    }
+    .count4{
+        left: 80.7%;
+        top: 44.4%;
     }
 }
 @media (max-width:320px){
-    .ph-main{
-        height: 273px;
-    }
     .ph-main .counter{
         letter-spacing: -1px;
+    }
+    .ph-main{
+        height: 273px;
     }
     .count1{
         top: 39.8%;
         left: 0.1%;
-        font-size: 0.7em;
     }
     .count2{
         top: 41%;
         left: 24%;
-        font-size: .7em;
+        
     }
     .count3{
         top: 37.1%;
         left: 57%;
-        font-size:.95em;
     }
     .count4{
         top: 40.7%;
-        font-size: .7em;
     }
 }
