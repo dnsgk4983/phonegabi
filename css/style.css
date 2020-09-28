@@ -172,21 +172,26 @@ input:focus{
     .ph-main{
         height: 273px;
     }
+    .ph-main .counter{
+        letter-spacing: -1px;
+    }
     .count1{
-        top: 38.8%;
+        top: 39.8%;
         left: 0.1%;
         font-size: 0.7em;
     }
     .count2{
-        top: 40.4%;
+        top: 41%;
+        left: 24%;
         font-size: .7em;
     }
     .count3{
-        top: 36.1%;
+        top: 37.1%;
+        left: 57%;
         font-size:.95em;
     }
     .count4{
-        top: 40.2%;
+        top: 40.7%;
         font-size: .7em;
     }
 }
