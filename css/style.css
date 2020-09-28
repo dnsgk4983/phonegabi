@@ -24,6 +24,7 @@ body{
     width: 100%;
     font-family: 'Noto Sans KR';
     font-size: 14px;
+    background: #fff;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -290,6 +291,9 @@ footer .container{
     }
 }
 @media (max-width:414px){
+    .ph-btn{
+        height: 12em;
+    }
     .ph-main{
         height: 323px;
     }
