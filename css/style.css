@@ -1,78 +1,14 @@
-@import url(https://cdn.jsdelivr.net/gh/moonspam/Noto sans KR@1.0/Noto sans KR.css);
-/* @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('normalize.css');
 @import url('reset.css');
-
 @font-face {
-    font-family: "Noto Sans KR";
-    font-weight: 100;
+    font-family: 'Noto Sans KR';
     font-style: normal;
-    src: url("../fonts/NotoSans-Thin.eot?") format("eot"),
-    url("../fonts/NotoSans-Thin.otf") format("opentype"),
-    url("../fonts/NotoSans-Thin.woff") format("woff"),
-    url("../fonts/NotoSans-Thin.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans KR";
-    font-weight: 200;
-    font-style: normal;
-    src: url("../fonts/NotoSans-Light.eot?") format("eot"),
-    url("../fonts/NotoSans-Light.otf") format("opentype"),
-    url("../fonts/NotoSans-Light.woff") format("woff"),
-    url("../fonts/NotoSans-Light.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans KR";
     font-weight: 300;
-    font-style: normal;
-    src: url("../fonts/NotoSans-DemiLight.eot?") format("eot"),
-    url("../fonts/NotoSans-DemiLight.otf") format("opentype"),
-    url("../fonts/NotoSans-DemiLight.woff") format("woff"),
-    url("../fonts/NotoSans-DemiLight.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans KR";
-    font-weight: 400;
-    font-style: normal;
-    src: url(" toSans-Regular.eot?") format("eot"),
-    url("../fonts/NotoSans-Regular.otf") format("opentype"),
-    url("../fonts/NotoSans-Regular.woff") format("woff"),
-    url("../fonts/NotoSans-Regular.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans KR";
-    font-weight: 500;
-    font-style: normal;
-    src: url("../fonts/NotoSans-Medium.eot?") format("eot"),
-    url("../fonts/NotoSans-Medium.otf") format("opentype"),
-    url("../fonts/NotoSans-Medium.woff") format("woff"),
-    url("../fonts/NotoSans-Medium.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans KR";
-    font-weight: 700;
-    font-style: normal;
-    src: url("../fonts/NotoSans-Black.eot?") format("eot"),
-    url("../fonts/NotoSans-Black.otf") format("opentype"),
-    url("../fonts/NotoSans-Black.woff") format("woff"),
-    url("../fonts/NotoSans-Black.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "Noto Sans KR";
-    font-weight: 700;
-    font-style: normal;
-    src: url("../fonts/NotoSans-Bold.eot?") format("eot"),
-    url("../fonts/NotoSans-Bold.otf") format("opentype"),
-    url("../fonts/NotoSans-Bold.woff") format("woff"),
-    url("../fonts/NotoSans-Bold.woff2") format("woff2");
-  }
+    src: url('../css/fonts/notokr-regular.eot');
+    src: url('../css/fonts/notokr-regular.eot?#iefix') format('embedded-opentype'),
+    url('../css/fonts/notokr-regular.woff') format('woff'),
+    url('../css/fonts/notokr-regular.woff2') format('woff2');
+}
 
 
 *{
@@ -203,14 +139,14 @@ input:focus{
     top: 39.7%;
     left: 2.3%;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .count2{
     position: absolute;
     top: 41.2%;
     left: 26.4%;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .count3{
     color: #fff;
@@ -287,6 +223,7 @@ input:focus{
     margin-left: 1em;
 }
 .ph-use > .pt-15{
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #2b2744;
 }
